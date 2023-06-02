@@ -1,0 +1,54 @@
+/* *{
+    margin: 0%;
+} */
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 0%;
+}
+.logo{
+    font-size: 2rem !important;
+}
+
+.navbar i{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.streamx{
+    background-size: cover;
+    background-image: url('https://edge.rode.com/images/page/1/modules/8063/StreamerX-Header-right.jpg');
+    min-height: 80vh;
+    background-position: center;
+    position: relative;
+    padding: 7%;
+}
+.streamx>div{
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+}
+.streamx a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ad9970;
+}
+
+.streamx span{
+    background-color: #ad9970;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    color: white;
+    padding: 2%;
+    margin-left: 3% ;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- function : group of statements 
+    2 types of functions
+1. user defined
+2. predefined
+steps for creating userdefined function 
+function functionname([arguments]){
+    stmts;
+    stmts;
+    .
+    .
+    return [optional]
+}
+
+note : calling a function with its name is mandatory
+ -->
+ 
+ <script>
+      function addTwoNum(){
+        console.log("this is a function");
+        console.log('this is second statement from functions');
+        var a=10,b=20;
+        var c=a+b;
+        console.log(c);
+
+
+      }
+      addTwoNum();//calling a function
+      function add(x,y){
+        console.log(x+y);
+
+      }
+      add(100,100);
+      add(1,25);
+      //getting a response from a function
+      function send(){
+        return "javascript is a powerfull scripting lang";
+      }
+      var f=send()
+      console.log(f);
+
+      
+ </script>
+</body>
+</html>

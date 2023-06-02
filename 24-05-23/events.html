@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input id="username"/>
+   <p> <input id="clg"/></p> -->
+   <p><input type="radio" id="fem"  name="gender" value="female">Female</p>
+   <p><input type="radio" id="male" name="gender"  value="male">Male</p>
+
+    <button onclick="store()">Submit</button>
+    <script>
+        function store() {
+            // var username= document.getElementById("username").value
+            // console.log(username)
+            // var clg= document.getElementById("clg").value
+            // console.log(clg)
+            var female = document.getElementById("fem").checked
+            var male = document.getElementById("male").checked
+            var gender ;
+            if(male==true)
+            gender="male"
+            else if(female==true)
+            gender="female"
+            else gender=null
+            console.log(gender)
+
+        
+
+            
+        }
+    </script>
+    <!-- <button onclick="demo()">Click</button>
+    <script>
+        function demo(){
+        alert("on button click it")
+        }
+    </script> -->
+    <!-- onclick
+    onchange
+    onsubmit
+
+    onkeypresss 
+    onkeydown
+    onkeyup  
+    onmouseover 
+    onmouseout -->
+    
+</body>
+</html>

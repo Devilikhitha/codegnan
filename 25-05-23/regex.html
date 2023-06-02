@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check(){
+            var firstname=document.getElementById("fname").value
+            var email=document.getElementById("el").value
+            var fnamecheck=/^[a-zA-z]+$/
+            var emailcheck=/^[a-z0-9.]+@[a-z0-9]+\.[a-z]{2,3}$/
+            console.log(firstname)
+            console.log(email)
+            if(firstname== "" ||firstname.length<3) {
+                alert("please enter your name")
+                return false 
+            }
+            if(!firstname.match(fnamecheck)){
+            alert("please enter characters")
+            return false
+            }
+        
+            if(email== "" ||email.length<3) {
+                alert("enter emailid")
+                return false 
+            }
+           
+            if(!email.match(emailcheck)){
+            alert("please provide proper email id")
+            return false
+            }
+           
+            return true
+           
+
+        
+
+        }
+    </script>
+    
+</head>
+<body>
+    <form onsubmit="return check()" action="https://www.google.com">
+       <p><input type="text" id="fname"/><p></p>
+       <p> <input placeholder="enter email" id="el"></p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
+
+<!-- Name 
+email 
+pswd
+confirm password  -->

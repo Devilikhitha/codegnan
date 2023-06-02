@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container{
+        
+            justify-content: center;
+           
+        }
+    </style>
+</head>
+<body bgcolor="lightyellow">
+    <div class="container">
+    <form>
+      <p>FirstName : <input type="text" placeholder="Enter your FirstName"/></p>
+      <p>LastName  : <input type="text" placeholder="Enter your LastName"/></p>
+      <p>Date Of Birth :  <input type="date"placeholder="dd/mm/yy"/></p>
+      <p>Gender    : 
+         <input type="radio" name="Gender"/>Female
+         <input type="radio" name="Gender"/>Male  
+    </p>
+    <p>Email: <input type="email" placeholder="Enter you Email"/></p>
+    <p>Phone Number: <input type="tel" placeholder="Enter you Phone Number"/></p>
+    <p>Password:<input type="password" placeholder="Password"/> </p>
+    <p>Select Your Favorite Food : 
+       <input type="checkbox"/> Shawarma
+        <input type="checkbox"/>Chicken Noodles
+        <input type="checkbox"/>Panipuri
+       <input type="checkbox"/> Manchuria
+        <input type="checkbox"/>Pizza
+     </p>
+     <p>Select a file : 
+        <input type="file"/>
+     </p>
+     <p>Communication :
+             <input type="range" min="0" max="10">
+     </p>
+     <p>Button Input :<input type="button" onclick="alert('Hello World!')" value="Click Me!".></p>
+    <p>
+        <input type="submit"/> 
+        <input type="reset"/>
+    </p>
+    </form>
+    </div>
+</body>
+</html>
